@@ -167,8 +167,8 @@ def index():
 def main():
     db_session.global_init("db/blogs.db")
     # app.register_blueprint(jobs_api.blueprint)
-    # app.run()
-    db_sess = db_session.create_session()
+    app.run()
+    """db_sess = db_session.create_session()
 
 
     user = User()
@@ -234,7 +234,7 @@ def main():
 
     db_sess.commit()
 
-    print(123)
+    print(123)"""
 
     '''user = User()
     user.name = "Пользователь 1"
