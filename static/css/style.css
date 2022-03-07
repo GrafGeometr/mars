@@ -1,0 +1,11 @@
+h4 {
+    color: blue;
+    padding: 20px;
+}
+
+h5 {
+    padding-left: 150px;
+    padding-bottom: 40px;
+    background-image: url("/static/img/sigh.png");
+    background-repeat: no-repeat;
+}
